@@ -1,0 +1,17 @@
+# Ignore Virtual Environments
+venv/
+**/venv/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Ignore Terraform states
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Ignore Sensitive Keys
+*key
+*.pem
